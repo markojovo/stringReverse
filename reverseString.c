@@ -1,8 +1,7 @@
-#include <stdio.h>
+#include "revlib.h"
 
 int main()
 {
-	printf("Hello World\n");
-	printf("Hello World\n");
+	reverseString("Hello", 5);
 	return 0;
 }
